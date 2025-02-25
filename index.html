@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- daisyUI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-slate-800">
+  <section class="max-w-md min-h-screen mx-auto py-6 bg-gray-200">
+    <header>
+      <nav class="flex justify-center items-center mt-30">
+          <div class="flex justify-center items-center w-10/12 mb-10 relative" >
+              <img class="absolute w-70" src="assets/Rectangle 1.png" alt="">
+              <img class="w-20" src="assets/Group.png" alt="">
+          </div>
+      </nav>
+  </header>
+
+  <!-- login form -->
+  <div class="hero bg-base-200 ">
+    <div class="hero-content flex-col lg:flex-row-reverse">
+      <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+        <form class="card-body">
+          <fieldset class="fieldset">
+            <label class="label">
+              <span class="label-text">Account Number</span>
+            </label>
+            <input value="01795885661" id="account" type="number" placeholder="type your number" class="input input-bordered"  required />
+          </fieldset>
+          <div>
+            <label class="label">
+              <span class="label-text">PIN</span>
+            </label>
+            <input value="1234" id="pin" type="text" placeholder="type your pin" class="input input-bordered" required  />
+            <label class="label">
+              <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+            </label>
+          </div>
+
+            <button id="login-btn" class="btn btn-primary ">Login</button>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  <script src="./script/apps.js"></script>
+</body>
+</html>
