@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- daisyui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-800">
+  <div class="max-w-md min-h-screen mx-auto py-6 bg-gray-200">
+    <header >
+      <nav class="flex justify-around items-center">
+          <img src="./assets/Group.png" alt="">
+          <div>
+              <h1>$<span>4500</span></h1>
+              <p>Available Balance</p>
+          </div>
+          <button class="btn rounded-lg">Log Out</button>
+      </nav>
+  </header>
+  <main class="mt-10">
+      <section class="px-5">
+          <h1 class="text-3xl ">Welcome to Payoo</h1>
+          <p>Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+      </section>
+      
+      <section class= "p-5 grid grid-cols-3 gap-4">
+          <div class="bordder border-1 w-30 rounded-sm shadow-lg shadow-gray-500 p-3">
+              <img class="w-10 mx-auto" src="./assets/wallet 1.png" alt="">
+              <p class="text-center">Add Money</p>
+          </div>
+          <div class="bordder border-1 w-30rounded-sm shadow-lg shadow-gray-500 p-3">
+            <img class="w-10 mx-auto" src="./assets/wallet 1.png" alt="">
+            <p class="text-center">CashOut</p>
+          </div>
+          <div class="bordder border-1 w-30 rounded-sm shadow-lg shadow-gray-500 p-3">
+          <img class="w-10 mx-auto" src="./assets/wallet 1.png" alt="">
+          <p class="text-center">Send Money</p>
+          </div>
+        <div class="bordder border-1 w-30 rounded-sm shadow-lg shadow-gray-500 p-3">
+        <img class="w-10 mx-auto" src="./assets/wallet 1.png" alt="">
+        <p class="text-center">Get Bonus</p>
+        </div>
+        <div class="bordder border-1 w-30 rounded-sm shadow-lg shadow-gray-500 p-3">
+        <img class="w-10 mx-auto" src="./assets/wallet 1.png" alt="">
+        <p class="text-center">Pay Bill</p>
+        </div>
+        <div class="bordder border-1 w-30 rounded-sm shadow-lg shadow-gray-500 p-3">
+        <img class="w-10 mx-auto" src="./assets/wallet 1.png" alt="">
+        <p class="text-center">Transactions</p>
+      </div>
+      </section>
+      <!-- cashout form -->
+      <section class="mt-5">
+        <div class="bg-base-200 ">
+          <h1 class="text-3xl mt-5 text-center">Cash Out</h1>
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+              <form class="card-body">
+                <fieldset>
+                  <select class="select select-info w-full max-w-md text-xl">
+                    <option disabled selected>Select Bank</option>
+                    <option>Bkash</option>
+                    <option>Nagad</option>
+                    <option>Dbbl</option>
+                  </select>
+                </fieldset>
+                <fieldset class="fieldset">
+                  <label class="label">
+                    <span class="label-text text-xl">Account Number</span>
+                  </label>
+                  <input  type="number" placeholder="type your number" class="input input-bordered"  required />
+                </fieldset>
+                <fieldset class="fieldset">
+                  <label class="label">
+                    <span class="label-text text-xl">Amount</span>
+                  </label>
+                  <input   type="number" placeholder="type your amount" class="input input-bordered"  required />
+                </fieldset>
+                <div>
+                  <label class="label">
+                    <span class="label-text text-xl">PIN</span>
+                  </label>
+                  <input  type="text" placeholder="type your pin" class="input input-bordered" required  />
+                
+                </div>
+      
+                  <button id="login-btn" class="btn btn-primary ">Login</button>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </main>
+  </div>
+</body>
+</html>
